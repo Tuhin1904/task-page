@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+
+
+
 .topD{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1.5rem;
+    font-family: 'Nunito', sans-serif;
 }
 .dbutton{
     background-color: rgb(26, 26, 80);

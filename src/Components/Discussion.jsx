@@ -10,7 +10,7 @@ function Discussion() {
   return (
     <div>
       <div className='topD'>
-        <h3>Discussion</h3>
+        <h2>Discussion</h2>
         <ol >{comments.map((comment, index) => (
           <li key={index}>{comment}</li>
         ))}

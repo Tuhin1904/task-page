@@ -16,7 +16,7 @@
 .founders span{
     display: flex;
     flex-direction: column;
-    margin: 0 6rem;
+    margin: 0 4rem;
     justify-content:space-between;
     align-items: center;
     font-family: 'Nunito', sans-serif;

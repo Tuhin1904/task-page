@@ -6,9 +6,10 @@ import Pitch from './Pitch';
 import Details from './Details';
 import Discussion from './Discussion';
 import Updates from './Updates';
+import {FaCloudDownloadAlt,FaGlobe} from 'react-icons/fa'
 
 function Front() {
-  const [selectedC, setSelectedC]=useState(null);
+  const [selectedC, setSelectedC]=useState(<Pitch/>);
   const handleClick =(namee)=>{
     switch(namee){
       case 'Pitch':
@@ -57,8 +58,8 @@ function Front() {
     <section className='content'>
             <div className='afterdiv2'>
                 <h1>Molecular skincare brand focussed on safe & visible results</h1>
-                <p><span>https://mycosiq.com</span>  <span>AAGCI5003E</span></p>
-            </div>
+                <p><span><FaGlobe size={'12'}/> https://mycosiq.com</span> <span>AAGCI5003E</span></p></div>
+            
                 <div className='afterdiv'>
                 <div className='youtubeleft'>
                 <Youtube videoId="kFII05-bhGU"/>
@@ -68,7 +69,7 @@ function Front() {
                   <h1>Rs1455000</h1>
                   <p>56.40 % of minimum goal raised</p>
                   <h1>114</h1>
-                  <p>Total investors</p>
+                  <p style={{marginTop:'0'}}>Total investors</p>
                   
                 <div className='btn2'>
                   <button className='loginB'>Login to invest </button>
@@ -88,81 +89,96 @@ function Front() {
               <div className='insideC'>
               <div className='box'>{selectedC}</div>
               <div className='rBox'>
-                <h1>Documents</h1>
+                <h1 id="doc">Documents</h1>
                 <div className='zipLink'>
-                  <h4>CoslQ</h4>
-                  <h3>DOwnload logo</h3>
+                  <h2>CoslQ.zip</h2>
+                  <FaCloudDownloadAlt size={'40'}/>
                 </div>
+                <div className='allBoxes'>
                 <div className='boxes'>
-                  <h1>5</h1>
+                  <h1>₹ 5000</h1>
                   <hr/>
-                  <p>Rewards</p>
+                  <p className="boldhead">Rewards</p>
                   <ul>
                     <li>
-                      c
+                    Community access & benefits .
                     </li>
                   </ul>
-                  <h4>Terms and Conditions</h4>
+                  <h4 className="boldhead">Terms and Conditions</h4>
                   <p>Community Participants offer</p>
-                  <button> 5</button>
+                  <button>₹5000</button>
                   <p><b>CSOP </b> Limited <b>(30 of 100)</b> left</p>
                 </div>
                 <div className='boxes'>
-                  <h1>5</h1>
+                  <h1>₹ 10000</h1>
                   <hr/>
-                  <p>Rewards</p>
+                  <p className="boldhead">Rewards</p>
                   <ul>
-                    <li>
-                      c
-                    </li>
+                    <li>Community access & involvement.</li>
+                    <li>Be part of our growth journey.</li>    
                   </ul>
-                  <h4>Terms and Conditions</h4>
+                  <h4 className="boldhead">Terms and Conditions</h4>
                   <p>Community Participants offer</p>
-                  <button> 5</button>
-                  <p><b>CSOP </b> Limited <b>(30 of 100)</b> left</p>
+                  <button> ₹10000</button>
+                  <p><b>CSOP </b> Limited <b>(73 of 100)</b> left</p>
                 </div>
                 <div className='boxes'>
-                  <h1>5</h1>
+                  <h1>₹ 25000</h1>
                   <hr/>
-                  <p>Rewards</p>
+                  <p className="boldhead">Rewards</p>
                   <ul>
-                    <li>
-                      c
-                    </li>
+                    <li>Community access & benefits</li>
+                    <li>Special mention in our community group.</li>
                   </ul>
-                  <h4>Terms and Conditions</h4>
+                  <h4 className="boldhead">Terms and Conditions</h4>
                   <p>Community Participants offer</p>
-                  <button> 5</button>
-                  <p><b>CSOP </b> Limited <b>(30 of 100)</b> left</p>
+                  <button> ₹25000</button>
+                  <p><b>CSOP </b> Limited <b>(43 of 50)</b> left</p>
                 </div>
                 <div className='mainBox'>
                 <div className='boxes'>
-                  <h1>5</h1>
+                  <h1>₹ 50000</h1>
                   <hr/>
-                  <p>Rewards</p>
+                  <p className="boldhead">Rewards</p>
                   <ul>
-                    <li>
-                      c
-                    </li>
+                    <li>Community access & benefits</li>
+                    <li>Community perks & notable mention</li> 
                   </ul>
-                  <h4>Terms and Conditions</h4>
+                  <h4 className="boldhead">Terms and Conditions</h4>
                   <p>Community Participants offer</p>
-                  <button> 5</button>
-                  <p><b>CSOP </b> Limited <b>(30 of 100)</b> left</p>
+                  <button> ₹50000</button>
+                  <p><b>CSOP </b> Limited <b>(17 of 20)</b> left</p>
                 </div>
                 <div className='boxes'>
-                  <h1>5</h1>
+                  <h1>₹ 80000</h1>
                   <hr/>
-                  <p>Rewards</p>
+                  <p className="boldhead">Rewards</p>
                   <ul>
                     <li>
-                      c
+                    All of the above + early access to our newly launched product for feedback
                     </li>
+                    <li>Community access & benefits</li>
                   </ul>
-                  <h4>Terms and Conditions</h4>
+                  <h4 className="boldhead">Terms and Conditions</h4>
                   <p>Community Participants offer</p>
-                  <button> 5</button>
-                  <p><b>CSOP </b> Limited <b>(30 of 100)</b> left</p>
+                  <button> ₹80000</button>
+                  <p><b>CSOP </b> Limited <b>(5 of 10)</b> left</p>
+                </div>
+                <div className='boxes'>
+                  <h1>₹ 90000</h1>
+                  <hr/>
+                  <p className="boldhead">Rewards</p>
+                  <ul>
+                    <li>
+                    All of the above + Receive a fresh coupon each quarter!
+                    </li>
+                    <li>Community access & benefits</li>
+                  </ul>
+                  <h4 className="boldhead">Terms and Conditions</h4>
+                  <p>Community Participants offer</p>
+                  <button> ₹90000</button>
+                  <p><b>CSOP </b> Limited <b>(5 of 10)</b> left</p>
+                </div>
                 </div>
 
               </div>
