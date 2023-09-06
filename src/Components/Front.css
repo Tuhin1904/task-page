@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');
+
+
+.Front{
+    margin-top: 5rem;
+    height: 150rem;
+    background-color: rgb(247,247,247,255);
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+
+    }
+.topFront{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6rem;
+}
+.topFront img{
+    height: 5rem;
+    padding: 0;
+    margin: 0;
+}
+.firstSec p{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(116, 108, 108);
+}
+
+.left2{
+    display: flex;
+    flex-direction: row;
+    /* background-color: grey; */
+    margin-left: 2rem;
+}
+.writing{
+    margin-top: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.right2 button{
+    border: 1px solid blue;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    padding: 0.4rem;
+    background-color: transparent;
+    color:blue;
+}
+
+#hr1{
+    width: 95%;
+    margin: auto;
+    /* font-weight: 900; */
+
+}
+.content{
+    padding-top: 0.8rem;
+    padding-left: 1.5rem;
+    font-size: small;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.afterdiv2{
+    left:0
+}
+.tags .span1{
+    background-color: rgb(182, 182, 243);
+    padding: 2px 8px;
+    
+    }
+.tags .span2{
+    background-color: rgb(243, 193, 153);
+    padding: 2px 8px;
+    
+    }
+.tags .span3{
+    padding: 2px 8px;
+    background-color: rgb(233, 227, 227);
+    
+    }
+.tags{
+    margin-bottom: 1.4rem;
+    margin-left: 1.5rem;
+    margin-top: 0.4rem;
+}
+
+
+.content p span{
+    background-color: rgb(214, 212, 212);
+    padding: 2px;    
+    margin: 0.3rem;
+    
+}
+.content p{
+    margin:1rem 0;
+}
+
+.afterdiv{
+    display: flex;
+}
+.youtubeleft{
+    /* width: 70%; */
+}
+.youtuberight{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.btn2{
+    display: flex;
+    flex-direction: column;
+}
+.btn2 .loginB{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.btn2 .ExpB{
+    background-color: rgb(226, 32, 97);
+    color: white;
+    border: none;
+    padding: 4px;
+}
+.content2{
+    padding-left: 1.5rem;
+}
+.lowerNav button{
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    transition: all 0.3s;
+    margin: 1rem;
+}
+.lowerNav button:active{
+    background-color: black;
+    color: white;
+}
+.insideC{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    width: 65%;
+    /* background-color: red; */
+    border: 1px solid rgb(177, 173, 173);
+    border-radius: 15px;
+}
+.rBox{
+    width: 35%;
+    /* background-color: blue; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.zipLink{
+    border: 1px solid grey;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.boxes{
+    border:1px solid grey;
+    margin-top: 2rem 0;
+}
+.mainBox{
+    padding: 2 rem;
+}

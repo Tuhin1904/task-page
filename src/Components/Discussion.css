@@ -1,0 +1,19 @@
+.topD{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+.dbutton{
+    background-color: rgb(26, 26, 80);
+    padding: 1rem;
+    color: white;
+    border: none;
+}
+.midD{
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

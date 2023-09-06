@@ -1,0 +1,13 @@
+.Pitch img{
+    max-width:80%;
+    border-radius: 20px;
+}
+.Pitch{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.mainPitch{
+    margin-bottom: 10px;
+}
